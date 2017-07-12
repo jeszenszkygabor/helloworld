@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.Memo"
+        versionCode = "46" 
+        version     = "1.46.4" > <!--A phoneGap build windows:appx nem fordul le, ha a version-t rosszul írod. Helytelen:1.4.01 Helyes: 1.4.1-->
+    
+    <!-- REMEMBER! Increase version (not versionCode) by EVERY build!!! -->
+    <!-- versionCode is optional and Android only -->
+
+    <name>NSP Courier</name>
+
+    <description>
+        Az NSP futár applikációja
+    </description>
+
+    <author href="http://valami.hu" email="valaki@gmail.com">
+        Cégnév 
+    </author>
+    
+    <!--The newer version of the phonegap automatically blocks all the requests
+     made to any server. You need to add cordova whitelist plugin to make it work.
+     <plugin name="cordova-plugin-geolocation" spec="2.4.3" />-->
+    <plugin name="cordova-plugin-whitelist" spec="1.3.2" />
+    
+    <plugin name="cordova-plugin-mauron85-background-geolocation" spec="2.2.5"/>
+    
+    
+    <icon src="icon.png" platform="android" qualifier="ldpi" />
+    <icon src="icon.png" platform="android" qualifier="mdpi" />
+    <icon src="icon.png" platform="android" qualifier="hdpi" />
+    <icon src="icon.png" platform="android" qualifier="xhdpi" />
+    <icon src="icon.png" platform="android" qualifier="xxhdpi" />
+
+</widget>
